@@ -36,5 +36,5 @@ Este jogo foi desenvolvido como parte de um projeto educacional da Digital Innov
 
 ## Link do Jogo
 
-O jogo Detona Ralph pode ser acessado através do GitHub Pages no seguinte link: [Detona Ralph](https://seu-usuario.github.io/detona-ralph)
+O jogo Detona Ralph pode ser acessado através do GitHub Pages no seguinte link: [Detona Ralph](https://marcelorodrigues1853.github.io/Desafio-Detona-RalphJs/)
 deixar uma ⭐️ se você gostou do projeto!
