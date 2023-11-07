@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- settings -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detona Ralph</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./src/style/main.css" />
+
+    <!-- scripts -->
+    <script src="./node_modules/howler/dist/howler.min.js" defer></script>
+    <script src="./src/scripts/engine.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="menu-time">
+          <h2 style="color: red">Tempo</h2>
+          <h2 id="time-left">0</h2>
+        </div>
+        <div class="menu-score">
+          <h2 style="color: red">Pontos</h2>
+          <h2 id="score">0</h2>
+        </div>
+        <div class="menu-lives">
+          <img src="./src/images/player.png" alt="player" height="60px" />
+          <h2>x3</h2>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-row">
+          <div class="square enemy" id="1"></div>
+          <div class="square" id="2"></div>
+          <div class="square" id="3"></div>
+        </div>
+
+        <div class="panel-row">
+          <div class="square" id="4"></div>
+          <div class="square" id="5"></div>
+          <div class="square" id="6"></div>
+        </div>
+
+        <div class="panel-row">
+          <div class="square" id="7"></div>
+          <div class="square" id="8"></div>
+          <div class="square" id="9"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <button id="startButton" onclick="initializeGame()">Iniciar Jogo</button>
+    </footer>
+  </body>
+</html>
